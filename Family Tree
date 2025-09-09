@@ -1,0 +1,11 @@
+23. Family Tree
+parent(john,mary).
+parent(john,alex).
+parent(mary,sam).
+
+grandparent(X,Y) :- parent(X,Z), parent(Z,Y).
+
+
+Query:
+
+?- grandparent(john,sam).
