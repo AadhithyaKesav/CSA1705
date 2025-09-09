@@ -1,0 +1,8 @@
+30. Backward Chaining (basic)
+wet_ground :- rain.
+rain.
+
+
+Query:
+
+?- wet_ground.
