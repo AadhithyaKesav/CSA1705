@@ -1,0 +1,9 @@
+18. DB with Name, DOB
+dob(john,'01-01-2000').
+dob(mary,'15-05-1999').
+dob(alex,'20-12-2001').
+
+
+Query:
+
+?- dob(mary,D).
