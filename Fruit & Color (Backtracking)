@@ -1,0 +1,9 @@
+ 26. Fruit & Color (Backtracking)
+fruit(apple,red).
+fruit(banana,yellow).
+fruit(grape,green).
+
+
+Query:
+
+?- fruit(F,C).
