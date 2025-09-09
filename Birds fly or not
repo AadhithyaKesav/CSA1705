@@ -1,0 +1,11 @@
+22. Birds fly or not
+bird(sparrow).
+bird(penguin).
+can_fly(sparrow).
+cannot_fly(penguin).
+
+
+Query:
+
+?- can_fly(sparrow).
+?- cannot_fly(penguin).
