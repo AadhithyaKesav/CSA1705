@@ -1,0 +1,11 @@
+25. Monkey Banana Problem
+at(monkey,door).
+at(banana,window).
+at(box,center).
+
+can_get(monkey) :- at(monkey,window), at(banana,window), write('Monkey got banana!').
+
+
+Query:
+
+?- can_get(monkey).
