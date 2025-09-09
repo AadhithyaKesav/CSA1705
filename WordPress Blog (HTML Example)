@@ -1,0 +1,11 @@
+31. WordPress Blog (HTML Example)
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Blog</title>
+</head>
+<body>
+<h1>Welcome to My Blog</h1>
+<p>Visit <a href="https://example.com">My Site</a></p>
+</body>
+</html>
