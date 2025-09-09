@@ -1,0 +1,8 @@
+ 32. Pattern Matching
+match([X|_],X).
+match([_|T],X) :- match(T,X).
+
+
+Query:
+
+?- match([a,b,c],b).
