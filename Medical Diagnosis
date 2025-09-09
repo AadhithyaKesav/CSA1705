@@ -1,0 +1,11 @@
+ 28. Medical Diagnosis
+symptom(fever,flu).
+symptom(cough,flu).
+symptom(rash,measles).
+
+disease(X) :- symptom(fever,X), symptom(cough,X).
+
+
+Query:
+
+?- disease(flu).
