@@ -1,0 +1,11 @@
+ 24. Dieting System (simple rules)
+disease(diabetes).
+disease(bp).
+
+diet(diabetes,'Avoid sugar').
+diet(bp,'Avoid salt').
+
+
+Query:
+
+?- diet(diabetes,Plan).
