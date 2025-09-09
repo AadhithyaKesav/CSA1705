@@ -1,0 +1,10 @@
+ 27. Best First Search (tiny example)
+edge(a,b,2).
+edge(a,c,1).
+edge(b,d,4).
+edge(c,d,2).
+
+heuristic(d,0).
+heuristic(b,3).
+heuristic(c,1).
+heuristic(a,5).
