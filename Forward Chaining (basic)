@@ -1,0 +1,10 @@
+29. Forward Chaining (basic)
+fact(rain).
+rule(rain,wet_ground).
+
+infer(X) :- fact(A), rule(A,X).
+
+
+Query:
+
+?- infer(wet_ground).
