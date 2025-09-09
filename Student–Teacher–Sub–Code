@@ -1,0 +1,5 @@
+ 19. Student–Teacher–Sub–Code
+teaches(mr_smith,math,101).
+teaches(ms_jane,science,102).
+student(john,math,101).
+student(mary,science,102).
